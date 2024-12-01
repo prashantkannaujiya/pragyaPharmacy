@@ -1,0 +1,20 @@
+
+  .navigate-button button{
+border:15px solid white;
+border-radius: 7px;
+padding:4px 10px;
+background-image: linear-gradient(cadetblue,navy);
+color:white;
+  }
+  .navigate-button i{
+    font-size: xx-large;
+    color: gray;
+  }
+  .user-img{
+    width:25%;
+    height:26vh;
+    background-image: url('images/person_1.jpg');
+    background-position: center;
+   background-size: 100% 100%;
+   border-radius: 70%;
+  }

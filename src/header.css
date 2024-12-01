@@ -1,0 +1,45 @@
+
+.head{
+    position:sticky;
+    top:0;
+    z-index:  10;
+background-color: skyblue;
+
+
+  }
+  .cartNum{
+    position: absolute;
+    font-size:13px;
+    padding: 0 5px;
+    top:2vh;
+    right:5%;
+    height:fit-content;
+  }
+  #logo{
+    position: relative; 
+    left: 36%; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    
+  }
+  @media only screen and (max-width:600px){
+   #logo{
+position: static;
+   }
+  }
+ .dropdown-item{
+  color:white;
+ }
+  .dropdown-item:hover{
+color:black;
+  }
+  #headdrop{
+    background-color: darkcyan;
+   
+  }
+  #headdrop>.dropdown-item{
+    color:white;
+  }
+  #headdrop>.dropdown-item:hover{
+    color:black;
+  }

@@ -1,0 +1,8 @@
+
+.moveup{
+    animation: moveup 0.75s ease-out;
+}
+@keyframes moveup {
+    0%{transform: translateY(50vh);}
+    100%{transform:translateY(0)}
+}

@@ -1,0 +1,90 @@
+#cardHome img{
+height:25vh;
+
+}
+
+.covidBanner{
+    opacity:1;
+    background-color: cadetblue;
+    width:1100px;
+    height:168px;
+    margin-top:21vh;
+    margin-bottom:14vh;
+    background-image: url('./images/Keep.png');
+    background-position:center;
+}
+#subcontent>.col-lg-4{
+width:32.8%;
+border:1px solid grey;
+}
+#subcontent>.col-lg-4 p{
+    color:gray;
+}
+#subcontent>.col-lg-4:hover{
+    background-color: darkcyan;
+   transition:600ms;
+ border:0;
+}
+#subcontent>.col-lg-4:hover  p{
+    color:white;
+}
+.slide img{
+  width:100%;
+}
+.animate{
+    white-space:nowrap;
+    overflow: hidden;
+}
+.burger-slider{
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+ 
+}
+.burger-slider:hover{
+    animation-play-state: paused;
+}
+@keyframes marquee {
+    0% {
+      transform: translateX(100%)
+    }
+    100% {
+      transform: translateX(-100%)
+    }
+  }
+  .burger-slider2{
+    display: inline-block;
+    animation: marquee2 15s linear  infinite;
+    animation-delay:7.5s;
+   
+  }
+  @keyframes marquee2 {
+    0% {
+      transform: translateX(0%)
+    }
+    100% {
+      transform: translateX(-200%)
+    }
+  }
+  
+.burger-description{
+    width:100%;
+    white-space: initial;
+
+}
+.burger-info{
+ display:none;
+ opacity: 0;
+}
+.slide:hover img{
+display: none;
+}
+.slide:hover .burger-info{
+  display:block;
+  opacity: 1;
+ animation: op 0.75s ease;
+ 
+}
+@keyframes op {
+  from{opacity:0;transform: scale(0.1);}
+  to{opacity: 1;transform: scale(1);}
+}
