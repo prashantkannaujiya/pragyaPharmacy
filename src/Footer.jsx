@@ -127,11 +127,11 @@ function Footer() {
       <div className="row">
         <div className="col-md-12 text-center text-white">
           <p>
-            Copyright © All rights reserved by Pragya Hospital
+            Copyright © All rights reserved by Me
             <i className="icon-heart color-danger" aria-hidden="true" />{" "}
             Designed by{" "}
             <a href="#" target="_blank">
-              JP Soft
+            Prashant Kannaujiya
             </a>
           </p>
         </div>
